@@ -1,5 +1,5 @@
 <?php
- error_reporting();
+/* error_reporting();
     //   session_start();
 	if (!empty($_SESSION['active'] )) 
 	{
@@ -8,7 +8,8 @@
     
     }
   //  session_destroy();
-?>
+*/
+  ?>
 
 
     <meta charset="utf-8" />
