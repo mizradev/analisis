@@ -1,11 +1,11 @@
 <?php
-     error_reporting(0);
+/*     error_reporting(0);
     session_start();
     if (empty($_SESSION['active'] )) //si no existe esta sesion 
     {
     	header('location: ../'); //haga esto
     }
-
+*/
 ?>
 
 

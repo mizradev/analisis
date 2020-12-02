@@ -1,5 +1,5 @@
 ﻿<?php
-
+/*
   error_reporting();
  
 require_once '../controllers/private.php';?>
@@ -8,7 +8,7 @@ require_once '../controllers/private.php';?>
 if($_SESSION['Rol'] == 2){
          header('location: ../progra/index.php');
          }
-            
+  */          
 ?>
 
 
