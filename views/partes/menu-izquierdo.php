@@ -247,25 +247,19 @@ include '../model/hora.php';
                          <li class="sidebar-item">
                                         <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
                                     
-                                            <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Biblioteca V.</span>
+                                            <i class="fas fa-book"></i><span class="hide-menu">Mod. Biblioteca Virtual</span>
                                         </a>
                                 <ul aria-expanded="false" class="collapse  first-level">
                                     <li class="sidebar-item">
-                                        <a href="actividadesdisponibles.php" class="sidebar-link">
+                                        <a href="../views/registrar.php" class="sidebar-link">
                                             <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu">Acti. Disponibles </span>
+                                            <span class="hide-menu">Libro-Registrar </span>
                                         </a>
                                     </li>
                                     <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
+                                        <a href="../views/consultar.php" class="sidebar-link">
                                             <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> Acti. Matriculadas </span>
-                                        </a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> analisi y diseño</span>
+                                            <span class="hide-menu"> Consultar Libros</span>
                                         </a>
                                     </li>
 
