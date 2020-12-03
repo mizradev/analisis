@@ -86,22 +86,11 @@ include '../model/hora.php';
                                             <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Login</span>
                                         </a>
                                 <ul aria-expanded="false" class="collapse  first-level">
+                                   
                                     <li class="sidebar-item">
-                                        <a href="actividadesdisponibles.php" class="sidebar-link">
+                                        <a href="grupo4/login.php" class="sidebar-link">
                                             <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu">Acti. Disponibles </span>
-                                        </a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> Acti. Matriculadas </span>
-                                        </a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> analisi y diseño</span>
+                                            <span class="hide-menu">Login</span>
                                         </a>
                                     </li>
 
@@ -217,22 +206,11 @@ include '../model/hora.php';
                                             <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Calendario</span>
                                         </a>
                                 <ul aria-expanded="false" class="collapse  first-level">
+                                   
                                     <li class="sidebar-item">
-                                        <a href="actividadesdisponibles.php" class="sidebar-link">
+                                        <a href="grupo4/calendario.php" class="sidebar-link">
                                             <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu">Acti. Disponibles </span>
-                                        </a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> Acti. Matriculadas </span>
-                                        </a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> analisi y diseño</span>
+                                            <span class="hide-menu">Calendario</span>
                                         </a>
                                     </li>
 
