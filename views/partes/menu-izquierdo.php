@@ -99,9 +99,9 @@ include '../model/hora.php';
                                         </a>
                                     </li>
                                     <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
+                                        <a href="grupo4/login.php" class="sidebar-link">
                                             <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> analisi y diseño</span>
+                                            <span class="hide-menu">Login</span>
                                         </a>
                                     </li>
 
