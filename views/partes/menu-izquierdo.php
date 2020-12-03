@@ -86,18 +86,7 @@ include '../model/hora.php';
                                             <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Login</span>
                                         </a>
                                 <ul aria-expanded="false" class="collapse  first-level">
-                                    <li class="sidebar-item">
-                                        <a href="actividadesdisponibles.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu">Acti. Disponibles </span>
-                                        </a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                            <i class="mdi mdi-adjust"></i>
-                                            <span class="hide-menu"> Acti. Matriculadas </span>
-                                        </a>
-                                    </li>
+                                   
                                     <li class="sidebar-item">
                                         <a href="grupo4/login.php" class="sidebar-link">
                                             <i class="mdi mdi-adjust"></i>
