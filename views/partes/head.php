@@ -19,7 +19,7 @@
     <title>
         registro de calificacones
     </title>
-    <link href="assets/libs/c3/c3.min.css" rel="stylesheet" />
+    <link href="/assets/libs/c3/c3.min.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="../dist/css/style.min.css" rel="stylesheet" />
 
