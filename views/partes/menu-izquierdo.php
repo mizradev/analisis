@@ -83,32 +83,21 @@ include '../model/hora.php';
                 <!-- ANALISI Y DISEÑO-->
                 <!-- ANALISI Y DISEÑO login  -->
                 <li class="sidebar-item">
-                    <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                        <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                    
+                                            <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Login</span>
+                                        </a>
+                                <ul aria-expanded="false" class="collapse  first-level">
+                                   
+                                    <li class="sidebar-item">
+                                        <a href="grupo4/login.php" class="sidebar-link">
+                                            <i class="mdi mdi-adjust"></i>
+                                            <span class="hide-menu">Login</span>
+                                        </a>
+                                    </li>
 
-                        <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Login</span>
-                    </a>
-                    <ul aria-expanded="false" class="collapse  first-level">
-                        <li class="sidebar-item">
-                            <a href="actividadesdisponibles.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu">Acti. Disponibles </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> Acti. Matriculadas </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> analisi y diseño</span>
-                            </a>
-                        </li>
-
-
-                    </ul>
+                                    
+                                </ul>
                 </li>
                 <!--fin ANALISI Y DISEÑO login-->
 
@@ -207,67 +196,50 @@ include '../model/hora.php';
                 <!-- FIN ANALISI Y DISEÑO Calificaciones-->
 
 
-                <!-- ANALISI Y DISEÑO Calendario-->
-                <li class="sidebar-item">
-                    <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                         <!-- ANALISI Y DISEÑO Calendario-->   
+                         <li class="sidebar-item">
+                                        <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                    
+                                            <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Calendario</span>
+                                        </a>
+                                <ul aria-expanded="false" class="collapse  first-level">
+                                   
+                                    <li class="sidebar-item">
+                                        <a href="grupo4/calendario.php" class="sidebar-link">
+                                            <i class="mdi mdi-adjust"></i>
+                                            <span class="hide-menu">Calendario</span>
+                                        </a>
+                                    </li>
 
-                        <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Calendario</span>
-                    </a>
-                    <ul aria-expanded="false" class="collapse  first-level">
-                        <li class="sidebar-item">
-                            <a href="actividadesdisponibles.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu">Acti. Disponibles </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> Acti. Matriculadas </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> analisi y diseño</span>
-                            </a>
-                        </li>
-
-
-                    </ul>
+                                    
+                                </ul>
                 </li>
 
                 <!-- FIN ANALISI Y DISEÑO Calendario-->
 
 
-                <!-- ANALISI Y DISEÑO Biblioteca V.-->
-                <li class="sidebar-item">
-                    <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                         <!-- ANALISI Y DISEÑO Biblioteca V.-->   
+                         <li class="sidebar-item">
+                                        <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                    
+                                            <i class="fas fa-book"></i><span class="hide-menu">Mod. Biblioteca Virtual</span>
+                                        </a>
+                                <ul aria-expanded="false" class="collapse  first-level">
+                                    <li class="sidebar-item">
+                                        <a href="../views/registrar.php" class="sidebar-link">
+                                            <i class="mdi mdi-adjust"></i>
+                                            <span class="hide-menu">Libro-Registrar </span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="../views/consultar.php" class="sidebar-link">
+                                            <i class="mdi mdi-adjust"></i>
+                                            <span class="hide-menu"> Consultar Libros</span>
+                                        </a>
+                                    </li>
 
-                        <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Biblioteca V.</span>
-                    </a>
-                    <ul aria-expanded="false" class="collapse  first-level">
-                        <li class="sidebar-item">
-                            <a href="actividadesdisponibles.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu">Acti. Disponibles </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> Acti. Matriculadas </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesmatriculadas.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> analisi y diseño</span>
-                            </a>
-                        </li>
-
-
-                    </ul>
+                                    
+                                </ul>
                 </li>
 
                 <!-- FIN ANALISI Y DISEÑO Ticket-->

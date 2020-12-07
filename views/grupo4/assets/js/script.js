@@ -1,0 +1,61 @@
+document.getElementById("btn__iniciar-sesion").addEventListener("click", login);
+
+document.getElementById("btn__registrarse").addEventListener("click", register);
+
+window.addEventListener("resize", anchoPagina);
+
+// Declaración de variables
+let contenedor_login_register = document.querySelector(".contenedor__login-register"),
+   formulario_login = document.querySelector(".formulario__login"),
+   formulario_register = document.querySelector(".formulario__register"),
+   caja_trasera_login = document.querySelector(".caja__trasera-login"),
+   caja_trasera_register = document.querySelector(".caja__trasera-register");
+
+// funcion a medida que cambie el ancho de la pagina
+function anchoPagina() {
+   if (window.innerWidth > 850) {
+      caja_trasera_login.style.display = "block";
+      caja_trasera_register.style.display = "block";
+   } else {
+      caja_trasera_register.style.display = "block";
+      caja_trasera_register.style.opacity = "1";
+      caja_trasera_login.style.display = "none";
+      formulario_login.style.display = "block";
+      formulario_register.style.display = "none";
+      contenedor_login_register.style.left = "0px";
+   }
+}
+anchoPagina();
+
+function login() {
+   if (window.innerWidth > 850) {
+      formulario_register.style.display = "none";
+      contenedor_login_register.style.left = "10px";
+      formulario_login.style.display = "block";
+      caja_trasera_register.style.opacity = "1";
+      caja_trasera_login.style.opacity = "0";
+   } else {
+      formulario_register.style.display = "none";
+      contenedor_login_register.style.left = "0px";
+      formulario_login.style.display = "block";
+      caja_trasera_register.style.display = "block";
+      caja_trasera_login.style.display = "none";
+   }
+}
+
+function register() {
+   if (window.innerWidth > 850) {
+      formulario_register.style.display = "block";
+      contenedor_login_register.style.left = "489px";
+      formulario_login.style.display = "none";
+      caja_trasera_register.style.opacity = "0";
+      caja_trasera_login.style.opacity = "1";
+   } else {
+      formulario_register.style.display = "block";
+      contenedor_login_register.style.left = "0px";
+      formulario_login.style.display = "none";
+      caja_trasera_register.style.display = "none";
+      caja_trasera_login.style.display = "block";
+      caja_trasera_login.style.opacity = "1";
+   }
+}
