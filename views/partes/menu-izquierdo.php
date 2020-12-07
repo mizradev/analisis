@@ -89,7 +89,7 @@ include '../model/hora.php';
                     <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
                         aria-expanded="false">
 
-                        <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Login</span>
+                        <i class="fas fa-user"></i><span class="hide-menu">Mod. Login</span>
                     </a>
                     <ul aria-expanded="false" class="collapse  first-level">
 
@@ -213,7 +213,7 @@ include '../model/hora.php';
                     <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
                         aria-expanded="false">
 
-                        <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Calendario</span>
+                        <i class="fas fa-calendar-alt"></i><span class="hide-menu">Mod. Calendario</span>
                     </a>
                     <ul aria-expanded="false" class="collapse  first-level">
 
