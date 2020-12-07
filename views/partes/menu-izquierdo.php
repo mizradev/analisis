@@ -172,21 +172,16 @@ include '../model/hora.php';
                 <li class="sidebar-item">
                     <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
 
-                        <i class="fas fa-calendar"></i><span class="hide-menu">Calificaciones</span>
+                        <i class="fas fa-calendar"></i><span class="hide-menu">Mod. Calificaciones</span>
                     </a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item">
-                            <a href="grupo1/registro-calificaciones.php" class="sidebar-link">
+                            <a href="calificaciones.php" class="sidebar-link">
                                 <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu">Registrar Calificaciones </span>
+                                <span class="hide-menu">Calificaciones </span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
-                            <a href="actividadesdisponibles.php" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu">Registro Calificaciones</span>
-                            </a>
-                        </li>
+                        
                         
 
 
