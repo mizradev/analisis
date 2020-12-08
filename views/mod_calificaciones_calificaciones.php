@@ -75,9 +75,7 @@ if($_SESSION['Rol'] == 2){
 
               <div class="tab-pane" id="previous-month" role="tabpanel" aria-labelledby="pills-setting-tab">
                 <div class="card-body">
-                  <table id="calificaciones" class="table">
-
-                  </table>
+                  <table id="calificaciones" class="table"></table>
                 </div>
               </div>
             </div>
@@ -144,16 +142,16 @@ if($_SESSION['Rol'] == 2){
             parcial2: 45,
             parcial3: 20,
             notaFinal: 100,
-            acciones: `<button class="btn btn-warning"><i class="fa fa-pencil-alt"></i></button>`,
+            acciones: `<a href="mod_calificaciones_calificaciones-editar.php" class="btn btn-warning"><i class="fa fa-pencil-alt"></i></a>`,
           },
           {
             cuenta: '2009101589',
             nombre: 'Cresencio Cecilio Lopez Arellano',
-            parcial1: 35,
-            parcial2: 45,
-            parcial3: 20,
-            notaFinal: 100,
-            acciones: `<button class="btn btn-warning"><i class="fa fa-pencil-alt"></i></button>`,
+            parcial1: 0,
+            parcial2: 0,
+            parcial3: 0,
+            notaFinal:0,
+            acciones: `<a href="mod_calificaciones_calificaciones-editar.php" class="btn btn-warning"><i class="fa fa-pencil-alt"></i></a>`,
           },
           {
             cuenta: '2010104569',
@@ -162,7 +160,7 @@ if($_SESSION['Rol'] == 2){
             parcial2: 45,
             parcial3: 20,
             notaFinal: 100,
-            acciones: `<button class="btn btn-warning"><i class="fa fa-pencil-alt"></i></button>`,
+            acciones: `<a href="mod_calificaciones_calificaciones-editar.php" class="btn btn-warning"><i class="fa fa-pencil-alt"></i></a>`,
           }
         ]
       });

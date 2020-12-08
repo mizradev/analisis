@@ -176,7 +176,13 @@ include '../model/hora.php';
                     </a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item">
-                            <a href="calificaciones.php" class="sidebar-link">
+                            <a href="mod_calificaciones_registro-evaluacion.php" class="sidebar-link">
+                                <i class="mdi mdi-adjust"></i>
+                                <span class="hide-menu">Registrar Actividades de Evaluación </span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="mod_calificaciones_calificaciones.php" class="sidebar-link">
                                 <i class="mdi mdi-adjust"></i>
                                 <span class="hide-menu">Calificaciones </span>
                             </a>
